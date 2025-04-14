@@ -5,12 +5,12 @@ En una instancia basada en Amazon Linux, clonar el proyecto actual y ejecutar lo
 ### Ubuntu:
 
 `
-wget https://github.com/JoseDabas/virtualhost-proyecto-final.git/main/basico-ubuntu.sh && chmod +x basico-ubuntu.sh && bash basico-ubuntu.sh
+wget https://raw.githubusercontent.com/JoseDabas/virtualhost-proyecto-final/refs/heads/main/basico-ubuntu.sh && chmod +x basico-ubuntu.sh && bash basico-ubuntu.sh
 `
 
 ### Amazon Linux 2:
 `
-wget https://github.com/JoseDabas/virtualhost-proyecto-final.git/main/basico.sh && chmod +x basico.sh && bash basico.sh
+wget https://raw.githubusercontent.com/JoseDabas/virtualhost-proyecto-final/refs/heads/main/basico-ubuntu.sh && chmod +x basico.sh && bash basico.sh
 `
 
 Una vez terminado el script, salga de la terminar y vuelva a conectarse. Validar que los siguientes comandos:
