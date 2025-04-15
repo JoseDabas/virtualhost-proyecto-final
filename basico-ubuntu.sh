@@ -46,6 +46,10 @@ cd ProyectoFinal-ProgramacionWeb
 chmod +x gradlew
 ./gradlew shadowjar
 
+#Creando variables de entorno
+export URL_MONGO="mongodb+srv://josearieldabas01:HL4OcEYAGqynX5Jj@josedatabase.7dkjm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+export DB_NOMBRE= "proyecto_final"
+
 # Subiendo la aplicación puerto por defecto.
 mkdir -p ~/ProyectoFinal-ProgramacionWeb/build/libs/
 java -jar ~/ProyectoFinal-ProgramacionWeb/build/libs/app.jar > ~/ProyectoFinal-ProgramacionWeb/build/libs/salida.txt 2> ~/ProyectoFinal-ProgramacionWeb/build/libs/error.txt &
